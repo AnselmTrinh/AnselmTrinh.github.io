@@ -1,0 +1,16 @@
+
+.experiences {
+    margin-left: 1500px;
+    color:blue;
+    width: 30%;
+    display:flex
+}
+
+.name {
+    margin-right: 50em;
+
+}
+body{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
