@@ -1,16 +1,50 @@
-
-.experiences {
-    margin-left: 1500px;
-    color:blue;
-    width: 30%;
-    display:flex
+body {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10%;
+    padding: 1em 2em;
+    font-size: 18px;
+    background: #222;
+    color: #aaa
+  }
+  
+h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+h1 { font-size: 3.5em; }
+h2 {
+    color: #888;
+    font-size: 2em;
 }
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+img {
+    border-radius: 50%;
+    }
 
 .name {
-    margin-right: 50em;
-
+    font-family: 'Satisfy', serif;
+    font-size: 30px;
 }
-body{
-    font-family: 'Nanum Myeongjo', serif;
+.role {
+    font-family: 'Satisfy', serif;
+    font-size: 20px;
 }
-
+.titre {
+    font-family:'Oleo Script',cursive;
+    stroke: none;
+}
