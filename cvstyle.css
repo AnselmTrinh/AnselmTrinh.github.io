@@ -31,20 +31,101 @@ a:link {
   a:active {
     text-decoration: underline;
   }
-
-img {
+  img {
     border-radius: 50%;
-    }
-
+  }
+.email {
+  color:rgb(230, 29, 29);
+}
+  
 .name {
-    font-family: 'Satisfy', serif;
-    font-size: 30px;
+  font-family: 'Satisfy', serif;
+  font-size: 30px;
 }
 .role {
-    font-family: 'Satisfy', serif;
-    font-size: 20px;
+  font-family: 'Satisfy', serif;
+  font-size: 20px;
 }
-.titre {
-    font-family:'Oleo Script',cursive;
-    stroke: none;
+.photo {
+  width: 20%;
+  height:20%;
+  margin: 0;
+}
+.experiences { 
+  position: absolute;
+  top:22%;
+  height: 350px;
+  width:20%;
+  box-shadow:6px 6px 6px rgb(230, 29, 29);
+  margin-top:20px;
+  right: 5%;
+}
+.exp{
+  font-family:'Oleo Script',cursive;
+}
+.educ{
+  font-family:'Oleo Script',cursive;
+}
+
+.qual{
+  font-family:'Oleo Script',cursive;
+}
+.contact{
+  font-family:'Oleo Script',cursive;
+}
+
+.position{
+
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 61%;
+  width:4.5%;
+  float:right;
+}
+#icon_html {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 61%;
+  width:4.5%;
+  float:right;
+}
+#icon_css {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 67%;
+  width:4.5%;
+  float:right;
+}
+#icon_js {
+  position: absolute;
+  margin-top: 5.7%;
+  margin-left: 73%;
+  width:4%;
+  float:right;
+  border-radius: 10%;
+}
+.comp{
+  font-family:'Oleo Script',cursive;
+  float: right;
+  margin-right:14%;
+
+}
+#icon_motive {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid greenyellow;
+}
+#icon_auto {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid greenyellow;
+}
+#icon_curious {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid greenyellow;
+  
 }
